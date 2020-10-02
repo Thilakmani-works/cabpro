@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex,nofollow"> 
     <meta name="googlebot" content="noindex,nofollow">
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="assets/images/taxi.png" type="image/icon">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <!-- Place your kit's code here -->
      <script src="https://kit.fontawesome.com/c3b295575f.js" crossorigin="anonymous"></script>
-
     <title>Picco cabs</title>
 </head>
 <body>
@@ -39,9 +39,9 @@
     </ul>
   </nav>
 </div>
-<div class="container-fluid my-5" id="header">
-  <div class="row">
-  <div class="col-md-6">
+<div class="container-fluid my-1" id="header">
+  <div class="row justify-content-center">
+  <div class="col-md-4">
   <div class="form-content">
     <form method="POST" class="form" id="contact-form">
       <div class="form-selector-component">
@@ -130,9 +130,11 @@
       <button class="form-input-btn" type="submit">Book</button>
     </form>
   </div>
+  <!--
   <div class="col-md-4">
     <img src="assets/images/car-gif.gif" alt="car gif" width="300px" height="300px">
   </div>
+  -->
 </div>
 </div>
 </div>
@@ -278,8 +280,7 @@
                     </svg>
                     </div>
                     <div class="px-3 text-center pb-3">
-                        <p class="font-weight-light my-3 text-secondary">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
-                            deleniti et fugit iusto nesciunt.</p>
+                        <p class="font-weight-light my-3 text-secondary">Good approach... Nice Customer interaction... Worth to call again</p>
                     </div>
                 </div>
                 <div>
@@ -312,8 +313,7 @@
                     </svg>
                     </div>
                     <div class="px-3 text-center pb-3">
-                        <p class="font-weight-light my-3 text-white">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
-                            deleniti et fugit iusto nesciunt.</p>
+                        <p class="font-weight-light my-3 text-white">The vehicle is in good condition. The driver is very professional and friendly as well as drives safely.</p>
                     </div>
                 </div>
                 <div>
@@ -346,8 +346,7 @@
                     </svg>
                     </div>
                     <div class="px-3 text-center pb-3">
-                        <p class="font-weight-light my-3 text-secondary">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
-                            deleniti et fugit iusto nesciunt.</p>
+                        <p class="font-weight-light my-3 text-secondary">Well behaved. Good driving, Friendly. This is my first ride with redtaxi and is better than expected.</p>
                     </div>
                 </div>
                 <div>
@@ -428,7 +427,88 @@
       </div>
   </div>
 </section>
+<!-- carousel popular destinations-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+        <div class="center-heading">
+            <h2 class="section-title">Popular Destinations</h2>
+        </div>
+    </div>
+</div>
+<div class="carousel">
+  <div class="carousel-cell">
+    <img src="assets/images/chennai.jpg" alt="Chennai-Metro">
+    <h2 class="center-heading">Chennai</h2>
+  </div>
+  <div class="carousel-cell">
+    <img src="assets/images/coimbatore.jpg" alt="Chennai-Metro">
+    <h2 class="center-heading">Coimbatore</h2>
+  </div>
+  <div class="carousel-cell">
+    <img src="assets/images/banglore.jpg" alt="Chennai-Metro">
+    <h2 class="center-heading">Bangalore</h2>
+  </div>
+  <div class="carousel-cell">
+    <img src="assets/images/tirunelveli.jpg" alt="Chennai-Metro">
+    <h2 class="center-heading">Tirunelveli</h2>
+  </div>
+  <div class="carousel-cell">
+    <img src="assets/images/pondicherry.jpg" alt="Chennai-Metro">
+    <h2 class="center-heading">Pondicherry</h2>
+  </div>
+  <div class="carousel-cell">
+    <img src="assets/images/ramanathapuram.jpg" alt="Chennai-Metro">
+    <h2 class="center-heading">Ramanathapuram</h2>
+  </div>
+</div>
+</div>
+<!-- start count stats -->
 
+<section id="counter-stats" class="wow fadeInRight" data-wow-duration="1.4s">
+	<div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+          <div class="center-heading">
+              <h2 class="section-title">Our Expertise!</h2>
+          </div>
+      </div>
+  </div>
+		<div class="row">
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-taxi" aria-hidden="true"></i>
+				<div class="counting" data-count="600">0</div>
+				<h5>Rides and More</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-road" aria-hidden="true"></i>
+				<div class="counting" data-count="200">0</div>
+				<h5>Routes</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<div class="counting" data-count="700">0</div>
+				<h5>Happy customers</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+<i class="fa fa-shield" aria-hidden="true"></i>
+				<div class="counting" data-count="999">0</div>
+				<h5>Trusted Vehicles</h5>
+			</div>
+
+
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+
+</section>
+
+<!-- end cont stats -->
 
 <footer class="bg-light text-center text-md-left">
 	<div class="container">
@@ -473,6 +553,8 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="js/carousel.js"></script>
 <script>
 $(document).ready(function() {
   // Toggle menu on click
@@ -481,6 +563,31 @@ $('.menu-toggle').click(function(){
    $(".nav").toggleClass("mobile-nav");
    $(this).toggleClass("is-active");
 })
+$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  })  
+  
+
+});
+
  });
 </script>       
 </body>
