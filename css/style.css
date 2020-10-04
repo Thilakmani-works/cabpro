@@ -8,7 +8,7 @@
 body{
   width: 100%;
   height: auto;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 p{
   font-size:0.8rem;
@@ -17,7 +17,6 @@ p{
   font-weight: lighter;
   text-align:justify;
   word-spacing:0.5px;
-
 }
 /* NAVIGATION */
 
@@ -47,14 +46,14 @@ p{
   grid-column-gap:1em;
 }
 
-.nav-item a {
+.nav-item1 a {
   color: #000;
   font-size: 1rem;
   text-decoration: none;
   transition: color 0.3s ease-out;
 }
 
-.nav-item a:hover,.nav-item.active a{
+.nav-item1 a:hover,.nav-item1.active a{
   color: #a7be38;
   text-decoration:none;
 }
@@ -223,7 +222,16 @@ p{
   color:white;
   margin: 1px auto;
 }
-
+.nav-item a{
+  color:black;
+  border-radius:10px;
+  background-color: #f7f7f7;
+}
+.nav-item a.active{
+  background-color: #a7be38;
+  color:white;
+  border-radius:10px;
+}
 
 #fleet{
   width: 100%;
@@ -383,9 +391,8 @@ p{
 /*form design */
 
 #header{
-  background-color: #EDEBED;
+  background-color: #f6f6f6;
 }
-
 
 /* why choose us      */
 a {
