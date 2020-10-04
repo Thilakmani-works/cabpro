@@ -216,14 +216,12 @@ p{
   padding : 10px 10px;
 }
 
-#outstation-just,#rental-just{
-  background-image:#EDEBED;
-}
 .btn-picco{
   border-radius: 1em;
   background-color: #a7be38;
   padding:0.5em 1em;
   color:white;
+  margin: 1px auto;
 }
 
 
