@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:ital,wght@0,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 *{
   margin: 0;
   padding:0;
-  font-family: 'Poppins', sans-serif;
 }
 body{
   width: 100%;
   height: auto;
   background-color: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
 }
 p{
   font-size:0.8rem;
@@ -35,7 +36,7 @@ p{
   height: 80px;
   width: auto;
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 15%;
 }
 
 .navbar ul {
@@ -48,6 +49,7 @@ p{
 
 .nav-item1 a {
   color: #000;
+  margin:0 10px;
   font-size: 1rem;
   text-decoration: none;
   transition: color 0.3s ease-out;
@@ -63,7 +65,7 @@ p{
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: #f7f7f7;
   z-index: 100;
 }
 
@@ -224,6 +226,7 @@ p{
 }
 .nav-item a{
   color:black;
+  font-weight:bolder;
   border-radius:10px;
   background-color: #f7f7f7;
 }
@@ -236,19 +239,21 @@ p{
 #fleet{
   width: 100%;
   height:auto;
-  background-color:#fff;
+  background-color:#fafafa;
   padding:1em 1em;
 }
 #fleet .row h3{
+  font-weight: bold;
   margin:1em;
 }
 #offers{
   width: 100%;
   height:auto;
-  background-color: #fafafa;
+  background-color: #fff;
   padding:1em 1em;
 }
 #offers .row h3{
+  font-weight: bold;
   margin:1em;
 }
 
@@ -392,6 +397,7 @@ p{
 
 #header{
   background-color: #f6f6f6;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 /* why choose us      */
@@ -414,7 +420,9 @@ a {
   .center-heading.colored .section-title {
     color: #ffffff;
   }
-  
+  .center-heading .text-center{
+    margin:50px 0;
+  }
   .center-text {
     text-align: center;
     font-weight: 400;
@@ -496,8 +504,8 @@ a {
   }
   
   .services-small-item .icon {
-    width: 139px;
-    height: 113px;
+    width: 50px;
+    height: 50px;
     margin: auto;
     position: relative;
     margin-bottom: 20px;
@@ -510,7 +518,7 @@ a {
   
   .services-small-item .icon img {
     display: block;
-    height: 113px;
+    height: 50px;
     line-height: 67px;
     position: absolute;
     width: 100%;
@@ -531,7 +539,8 @@ a {
     font-size: 16px;
     color: black;
     letter-spacing: 0.7px;
-    margin-bottom: 15px;
+    font-weight: bold;
+    margin:20px 0;
     position: relative;
     z-index: 2;
     -webkit-transition: all 0.3s ease 0s;
